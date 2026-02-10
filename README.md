@@ -1,7 +1,7 @@
 # Pos Descomplica 
 ## MBA em Big Data e Inteligência Competitiva  
 ### Módulo 0  
-[ ] Bem vindo  
+[✔️] Bem vindo  
 ---  
 ### Módulo 1  
 [ ] Data Analytics e Big Data para Tomada de Decisão  
@@ -32,3 +32,9 @@
 [ ] Pitch
 [ ] Projeto
 [ ] Artigo
+---
+|Legenda|
+|---|
+|[ ] - Backlog|
+|[🤓] - In progress|
+|[✔️] - Done|
