@@ -1,6 +1,6 @@
 # Descomplica Pós TIC  
 ## 1º Trimestre  
-[ ] Pós-graduação em Análise de Dados  
+[🤓] Pós-graduação em Análise de Dados  
 [ ] MBA em Big Data e Inteligência Competitiva  
 [ ] Pós-Graduação em Data Science  
 [ ] Pós-graduação em Projetos de Cloud Computing  
@@ -20,7 +20,7 @@
 ---
 # Disciplinas  
 ### Fase 1: Disciplinas Tronco (Máximo Impacto e Reúso)  
-[ ] **Essencial DataBase** *(Presente em 5 cursos: C1, C2, C3, C5, C7)*  
+[🤓] **Essencial DataBase** *(Presente em 5 cursos: C1, C2, C3, C5, C7)*  
 [ ] **Python** *(Presente em 4 cursos: C1, C2, C3, C9)*  
 [ ] **Statistics for Data Science** *(Presente em 4 cursos: C1, C2, C3, C9)*  
 [ ] **Computação em Nuvem** *(Presente em 4 cursos: C4, C6, C8, C12)*  
