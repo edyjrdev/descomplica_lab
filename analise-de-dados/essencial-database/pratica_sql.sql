@@ -109,7 +109,7 @@ select * from departamento;
 
 delete from departamento; -- limpa tabela
 
---Schema SCOTT
+--Schema EMP and DEPT (SCOTT)
 
 --- projecao = selecao de colunas
 
@@ -332,3 +332,103 @@ select ename, job, sal,
          ELSE sal * 1.0
     END as salario_bonificado
 from scott.emp;
+
+-- joins
+-- inner
+-- left
+-- right
+-- cross
+
+select 
+    e.ename, 
+    e.job,
+    d.dname, 
+    d.loc
+from scott.emp e 
+    inner join scott.dept d on e.DEPTNO = d.DEPTNO;
+
+select 
+    e.ename,
+    d.dname
+from scott.emp e 
+    right join scott.dept d on e.DEPTNO = d.DEPTNO;
+
+--schema Human Resources (HR)
+
+SELECT
+    e.FIRST_NAME,
+    d.DEPARTMENT_NAME,
+    l.CITY
+from hr.employees e 
+    join hr.departments d on e.department_id = d.department_id
+    join hr.locations l on d.location_id = d.location_id;
+
+-- junção não identica
+
+select *
+from ALL_TABLES
+where TABLE_NAME like 'SALGRADE';
+
+desc all_tables;
+
+select * from ALL_VIEWS;
+
+
+create table grade(
+    id_grade integer primary key,
+    losal number(5),
+    hisal number(5)
+)
+
+insert into grade values (1, 700, 1200);
+insert into grade values (2, 1201, 1400);
+insert into grade values (3, 1401, 2000);
+insert into grade values (4, 2001, 3000);
+insert into grade values (5, 3001, 9999);
+
+select * from GRADE;
+rename grade to salgrade;
+
+desc salgrade;
+SELECT SYS_CONTEXT('USERENV', 'CURRENT_SCHEMA') AS schema_atual
+  FROM dual;
+
+SELECT owner AS schema_dono, 
+       table_name AS nome_tabela
+  FROM all_tables
+ WHERE UPPER(table_name) = UPPER('salgrade');
+
+select * from "My Schema".salgrade;
+
+desc "EDYJRDEV_SCHEMA_127DT".salgrade
+
+SELECT e.ename, 
+       e.sal,
+       s.id_grade,
+       s.losal,
+       s.hisal
+  FROM scott.emp e 
+  JOIN "EDYJRDEV_SCHEMA_127DT".salgrade s 
+    ON e.sal BETWEEN s.losal AND s.hisal;
+
+-- junção extena (right outer e left outer e full outer)
+
+select e.last_name, e.DEPARTMENT_ID,
+    d.department_name
+from hr.employees e
+    left outer join hr.departments d on e.department_id = d.department_id
+order by e.last_name;
+
+select e.last_name, e.DEPARTMENT_ID,
+    d.department_name
+from hr.employees e
+    right outer join hr.departments d on e.department_id = d.department_id
+order by e.last_name;
+
+
+select e.last_name, e.DEPARTMENT_ID,
+    d.department_name
+from hr.employees e
+    full outer join hr.departments d on e.department_id = d.department_id
+order by e.last_name;
+

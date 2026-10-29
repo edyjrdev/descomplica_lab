@@ -6,12 +6,15 @@
 
 ## 🏆 Painel de Conclusão dos Cursos
 
-**Legendda**
+**Legenda**
 |Icon|Significado|
-| 🔄| Em andamento |
-| ✅| Concluído | 
-| ❌| Obstáculo |
+|---|---|
+|🔄| Em andamento |
+|✅| Concluído | 
+|❌| Obstáculo |
 
+## Início do Projeto
+**25/10/2026**
 
 ### 1º Trimestre
 - [🔄] **[1º] ANADAD** - Pós-graduação em Análise de Dados
