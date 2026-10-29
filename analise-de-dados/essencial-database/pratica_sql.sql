@@ -432,3 +432,123 @@ from hr.employees e
     full outer join hr.departments d on e.department_id = d.department_id
 order by e.last_name;
 
+-- autojoin
+
+select 
+    ger.ename as gerente,
+    func.ename as empregado
+from scott.emp func
+    left join scott.emp ger on func.mgr = ger.empno
+order by 
+    ger.ENAME, func.ename;
+
+
+-- funcoes de grupo
+-- MAX, MIN, AVG, COUNT, SUM, STDDEV, SUM, VARIANCE
+
+select 
+    count(sal) as total,
+    round(sum(sal),2) as soma,
+    round(max(sal),2) as maximo,
+    round(min(sal),2) as minimo,
+    round(avg(sal),2) as media,
+    round(stddev(sal),2) as desvio_padrao,
+    round(variance(sal),2) as variancia
+from 
+    scott.emp
+where job like 'SALE%';
+
+-- data MAX e MIN
+select min(hiredate), max(hiredate) from scott.emp;
+
+-- char em ordem alfabetica
+select min(ename), max(ename)
+from scott.emp;
+
+select count(*)
+from scott.emp
+where deptno = 30;
+
+-- nao conta nulo
+select count(*), count(comm)
+from scott.EMP;
+
+select count(comm)
+from scott.EMP;
+
+select avg(comm)
+from scott.EMP;
+
+select round(avg(nvl(comm,0))) as media_empregados
+from scott.EMP;
+
+--group by - grupo por coluna
+select deptno, round(avg(sal),2) as avg
+from scott.emp
+group by deptno;
+
+select deptno, job, sum(sal) as total
+from scott.emp
+group by deptno, job
+order by deptno, job;
+
+-- restringindo - filtrando grupos HAVING
+select deptno, max(sal)
+from scott.emp
+group by deptno
+having max(sal)> 2900;
+
+select job, trunc(avg(sal)) media
+from scott.emp
+group by job
+having avg(sal) >= 3000
+order by job;
+
+
+--subconsulta - subquery - subselect
+-- Quem esta com o salario abaixo da media de salario
+
+select ename, sal
+from scott.emp e
+where e.sal <= --subconsulta de uma linha
+    (select trunc(avg(sal)) from scott.emp);
+
+select ename, sal
+from scott.emp
+where sal <= (select min(sal) from scott.emp);
+
+-- subconsulta de multiplas linha -> IN, ANY (sentido de OR), ALL (sentido de AND)
+
+select ename, job, sal
+from scott.emp
+where 
+    sal < ANY (select sal from scott.emp where job = 'ANALYST') -- Qualquer Salario de Analista
+    and job <> 'ANALYST';
+
+select ename, job, sal
+from scott.emp
+where 
+    sal < ALL (select trunc(avg(sal)) from scott.emp group by deptno); 
+
+-- subconsulta de multiplas colunas -> IN
+
+select empno, ename, job, sal
+from scott.emp
+where (job, sal) in (select job, sal from scott.emp where sal>2500);
+
+--copiando com subconsulta
+create table salgrade_copy as (select * from salgrade);
+--inserindo com subconsulta
+insert into salgrade_copy (select * from salgrade);
+
+
+-- SUBTOTAIS 
+-- ROLLUP no grupo
+-- CUBE em todas colunas do grupo
+select deptno, job, sum(sal)
+from scott.emp
+group by ROLLUP (deptno, job);
+
+select deptno, job, sum(sal)
+from scott.emp
+group by CUBE (deptno, job);
