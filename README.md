@@ -10,7 +10,7 @@
 **25/10/2026**
 
 ### 1º Trimestre
-- [x] **[1º] ANADAD** - Pós-graduação em Análise de Dados
+- [ ] **[1º] ANADAD** - Pós-graduação em Análise de Dados - WIP
 - [ ] **[2º] BIGDATA** - MBA em Big Data e Inteligência Competitiva
 - [ ] **[3º] DATASCI** - Pós-Graduação em Data Science
 - [ ] **[4º] CLOUD** - Pós-graduação em Projetos de Cloud Computing
