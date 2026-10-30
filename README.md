@@ -42,7 +42,7 @@
 ### 🔹 Fase 1: Super-Comuns de Dados (Impacto em 3 cursos simultâneos)
 | Status | Disciplina | Cursos Impactados no 1º Tri | Bônus Futuro (Reaproveitamento) | Data Conclusão |
 | :---: | :--- | :--- | :--- | :---: |
-| [🔄] | **Essencial DataBase** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta ENGSOFT e DEVWEB no 2º Tri!)* | ___/___/___ |
+| [✅] | **Essencial DataBase** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta ENGSOFT e DEVWEB no 2º Tri!)* | 29/10/2026 |
 | [ ] | **Python** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | ___/___/___ |
 | [ ] | **Statistics for Data Science** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | ___/___/___ |
 

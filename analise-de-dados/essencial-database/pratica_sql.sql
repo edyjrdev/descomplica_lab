@@ -552,3 +552,131 @@ group by ROLLUP (deptno, job);
 select deptno, job, sum(sal)
 from scott.emp
 group by CUBE (deptno, job);
+
+
+-- VIEW
+-- view simples
+create or replace view vw_dept10
+as 
+    select ename, deptno, sal
+    from scott.emp
+    where deptno = 10;
+
+select * from vw_dept10;
+
+create or replace view vw_sal30
+    (NOME, DEPT, SALARIO)
+as 
+    select ename, deptno, sal
+    from scott.emp
+    where deptno = 30;
+
+select * from vw_sal30;
+
+create or replace view vw_empvu10 (employee_number, employee_name, job_title)
+as 
+    select empno, ename, job
+    from scott.emp
+    where deptno = 10;
+
+
+-- view complexa - funçao de grupo ou restrição (having)
+
+create or replace view dept_sum_vw (name, sal_min, sal_max, sal_med)
+as 
+    select d.name, min(e.sal), max(e.sal), avg(e.sal)
+    from scott.emp e 
+    join scott.dept d on e.deptno = d.deptno
+    group by d.name;
+
+select * from dept_sum_vw;
+
+
+
+-- Fechar DML (INSERT, UPDATE)
+-- WITH READ ONLY
+drop copy_emp;
+create copy_emp as select * from scott.emp;
+
+create or replace view emp_copy 
+as 
+    select * from copy_emp;
+
+select * from copy_emp;
+
+delete from copy_emp; -- apaga registros da copy_emp
+
+create or replace view emp_copy 
+as 
+    select * from copy_emp;
+with read only;
+
+delete from copy_emp; -- erro não permitido DML
+
+-- DELETAR VIEW
+DROP VIEW vw_xpto;
+
+
+-- SEQUENCE (VALOR AUTOINCREMENTAL CONFIGURAVEL)
+create sequence id_auto increment by 1 start with 10 maxvalue 1000 nocache nocycle;
+
+-- consultar sequencias
+select * from user_sequences;
+
+-- uso
+-- id_auto.NEXTVAL
+insert into dept (deptno, dname, loc) values (dept_deptno.NEXTVAL, 'DEPARTAMENTO NOVO', 'SAO PAULO');
+
+-- consulta valor atual
+select dept_deptno.CURRVAL from dual;
+
+-- ALTERAR 
+ALTER SEQUENCE dept_deptno increment by 1 maxvalue 9999 nocach nocycle;
+
+--DELETAR
+DROP dept_deptno; -- elimina gerador, não os numeros gerados.
+
+create table copy_dept as select * from scott.dept;
+
+create sequence dept_deptno start with 99 increment by 3 maxvalue 300;
+
+insert into copy_dept values (dept_deptno.NEXTVAL, 'COMERCIAL', 'FOZ DO IGUACU');
+
+select dept_deptno.CURRVAL from dual;
+
+insert into copy_dept values (dept_deptno.NEXTVAL, 'INOVACAO', 'CURITIBA');
+
+select dept_deptno.CURRVAL from dual;
+
+alter sequence dept_deptno start with 99 increment by 3 maxvalue 300;
+
+insert into copy_dept values (dept_deptno.NEXTVAL, 'LOGISTICA', 'BRASILIA');
+
+select dept_deptno.CURRVAL from dual;
+
+drop sequence dept_deptno;
+
+-- INDICES
+-- PK e FK cria automatico
+-- Consulta indices USER_INDEXES
+select * from user_indexes where table_name = 'EMP';
+-- Consulta colunas indices USER_INDEXES
+select * from user_ind_columns where table_name = 'EMP';
+
+--DELETAR
+DROP INDEX idx;
+
+create table copy_emp as select * from scott.emp;
+
+select * from copy_emp;
+
+select index_name from user_indexes where table_name = 'copy_emp';
+
+create index ename-idx on copy_emp(ename);
+
+select empno, ename, sal
+from copy_emp
+where ename = 'JAMES';
+
+-- SAIBA MAIS
+-- DBEAVER (MySQL, Postgres, SQLite, etc)
