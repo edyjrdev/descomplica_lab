@@ -6,18 +6,11 @@
 
 ## 🏆 Painel de Conclusão dos Cursos
 
-**Legenda**
-|Icon|Significado|
-|---|---|
-|🔄| Em andamento |
-|✅| Concluído | 
-|❌| Obstáculo |
-
 ## Início do Projeto
 **25/10/2026**
 
 ### 1º Trimestre
-- [🔄] **[1º] ANADAD** - Pós-graduação em Análise de Dados
+- [x] **[1º] ANADAD** - Pós-graduação em Análise de Dados
 - [ ] **[2º] BIGDATA** - MBA em Big Data e Inteligência Competitiva
 - [ ] **[3º] DATASCI** - Pós-Graduação em Data Science
 - [ ] **[4º] CLOUD** - Pós-graduação em Projetos de Cloud Computing
@@ -42,7 +35,7 @@
 ### 🔹 Fase 1: Super-Comuns de Dados (Impacto em 3 cursos simultâneos)
 | Status | Disciplina | Cursos Impactados no 1º Tri | Bônus Futuro (Reaproveitamento) | Data Conclusão |
 | :---: | :--- | :--- | :--- | :---: |
-| [✅] | **Essencial DataBase** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta ENGSOFT e DEVWEB no 2º Tri!)* | 29/10/2026 |
+| [x] | **Essencial DataBase** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta ENGSOFT e DEVWEB no 2º Tri!)* | 29/10/2026 |
 | [ ] | **Python** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | ___/___/___ |
 | [ ] | **Statistics for Data Science** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | ___/___/___ |
 
