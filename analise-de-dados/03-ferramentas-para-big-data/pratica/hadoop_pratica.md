@@ -1,6 +1,12 @@
 # Hadoop - Praticas
 
 ## HDFS
+Configuração no arquivo xml **hdfs-site.xml** da replicação e pastas de gestão dos nós: NameNode, DataNote, SecondNameNode.  
+
+```bash
+cat /opt/hadoop/ect/hadoop/hdfs-site.xml
+```
+
 Pratica manipulação arquivos:  
 1. Criar pasta text no HDFS  
 1. Copiar dados /usr/share/mime/text xml para text  
@@ -119,3 +125,22 @@ if __name__ == '__main__':
     # Executa o MRJob
     MRAvaliaFilme.run()
 ```
+
+Exemplos de MapReduce  
+```bash
+ls opt/hadoop/share/hadoop/mapreduce/
+mapreduce-examples-3.2.0.jar (WordCount)
+```
+Execuntado  
+```bash
+hadoop jar /opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.0.jar wordcount /tmp/bibleshakes.txt  /ouputteste
+```
+Fluxo do YARN
+```
+NEW -> NEW_SAVING -> SUBMITED -> ACCEPTED -> RUNNING -> FINISHED | FAILED
+```
+
+
+
+
+
