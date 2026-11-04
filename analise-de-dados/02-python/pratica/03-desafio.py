@@ -13,7 +13,9 @@ def busca_nome(nome_lista: list, nome_busca: str):
             achou = True
         else:
             lista_temp.remove(lista_temp[indice])
-            achou = busca_nome(lista_temp, nome_busca)
+            achou = busca_nome(
+                lista_temp, nome_busca
+            )  # pega o retorno da proxima chamada
 
     return achou
 

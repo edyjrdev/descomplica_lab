@@ -36,7 +36,7 @@
 | Status | Disciplina | Cursos Impactados no 1º Tri | Bônus Futuro (Reaproveitamento) | Data Conclusão |
 | :---: | :--- | :--- | :--- | :---: |
 | [x] | **Essencial DataBase** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta ENGSOFT e DEVWEB no 2º Tri!)* | 29/10/2026 |
-| [ ] | **Python** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | ___/___/___ |
+| [x] | **Python** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | 03/11/2026 |
 | [ ] | **Statistics for Data Science** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | ___/___/___ |
 
 ### 🔹 Fase 2: Comuns em Pares (Impacto em 2 cursos simultâneos)
