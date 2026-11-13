@@ -33,11 +33,11 @@
 **Cursos Alvo:** `ANADAD`, `BIGDATA`, `DATASCI`, `CLOUD`
 
 ### 🔹 Fase 1: Super-Comuns de Dados (Impacto em 3 cursos simultâneos)
-| Status | Disciplina | Cursos Impactados no 1º Tri | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
 | :---: | :--- | :--- | :--- | :---: |
 | [x] | **Essencial DataBase** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta ENGSOFT e DEVWEB no 2º Tri!)* | 29/10/2026 |
 | [x] | **Python** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | 03/11/2026 |
-| [ ] | **Statistics for Data Science** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | ___/___/___ |
+| [x] | **Statistics for Data Science** | `ANADAD`, `BIGDATA`, `DATASCI` | *(Adianta WEB3 no 3º Tri!)* | 13/11/2026 |
 
 ### 🔹 Fase 2: Comuns em Pares (Impacto em 2 cursos simultâneos)
 | Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
@@ -54,57 +54,69 @@
 ### 🔹 Fase 3: Disciplinas Específicas de cada Curso (1º Trimestre)
 
 #### ANADAD - Pós-graduação em Análise de Dados
-- [ ] Estatística Aplicada a Negócios *(Módulo 1)*
-- [ ] Computação e Inteligência Artificial *(Módulo 1)*
-- [ ] Privacy and Data Protection *(Módulo 3) -> Adianta APPS e SEGINFO*
-- [ ] Cloud Security *(Módulo 3) -> Adianta SEGINFO*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [x] | **Estatística Aplicada a Negócios** *(Módulo 1)* | `ANADAD` | - | 12/11/2026 |
+| [ ] | **Computação e Inteligência Artificial** *(Módulo 1)* | `ANADAD` | - | ___/___/___ |
+| [ ] | **Privacy and Data Protection** *(Módulo 3)* | `ANADAD` | *(Adianta APPS e SEGINFO)* | ___/___/___ |
+| [ ] | **Cloud Security** *(Módulo 3)* | `ANADAD` | *(Adianta SEGINFO)* | ___/___/___ |
 
 #### BIGDATA - MBA em Big Data e Inteligência Competitiva
-- [ ] Arquitetura e Modelagem de Dados *(Módulo 1) -> Adianta ENGSOFT*
-- [ ] Linguagem R *(Módulo 2)*
-- [ ] Visualização de Dados *(Módulo 3)*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Arquitetura e Modelagem de Dados** *(Módulo 1)* | `BIGDATA` | *(Adianta ENGSOFT)* | ___/___/___ |
+| [ ] | **Linguagem R** *(Módulo 2)* | `BIGDATA` | - | ___/___/___ |
+| [ ] | **Visualização de Dados** *(Módulo 3)* | `BIGDATA` | - | ___/___/___ |
 
 #### DATASCI - Pós-Graduação em Data Science
-- [ ] Learning Programming *(Módulo 1)*
-- [ ] Clusterização *(Módulo 1)*
-- [ ] Regressão e Predição *(Módulo 2)*
-- [ ] Network Science *(Módulo 3)*
-- [ ] Perceptron e Adaline *(Módulo 3)*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Learning Programming** *(Módulo 1)* | `DATASCI` | - | ___/___/___ |
+| [ ] | **Clusterização** *(Módulo 1)* | `DATASCI` | - | ___/___/___ |
+| [ ] | **Regressão e Predição** *(Módulo 2)* | `DATASCI` | - | ___/___/___ |
+| [ ] | **Network Science** *(Módulo 3)* | `DATASCI` | - | ___/___/___ |
+| [ ] | **Perceptron e Adaline** *(Módulo 3)* | `DATASCI` | - | ___/___/___ |
 
 #### CLOUD - Pós-graduação em Projetos de Cloud Computing
 > *Atenção: Muitas disciplinas desta trilha eliminam quase toda a base de LGPD e APPEDU!*
-- [ ] Gestão do Tempo *(Módulo 1) -> Adianta LGPD, APPS, APPEDU*
-- [ ] Projeto de Vida *(Módulo 1) -> Adianta LGPD, APPEDU*
-- [ ] Coaching e Planejamento de Carreira *(Módulo 1) -> Adianta LGPD, APPEDU*
-- [ ] Governança e Qualidade de Dados *(Módulo 1) -> Adianta LGPD, APPEDU*
-- [ ] Da Iniciação ao Orçamento do Projeto *(Módulo 1)*
-- [ ] Narrativas, Roteiro e Storyboard *(Módulo 2) -> Adianta LGPD, APPEDU*
-- [ ] Segurança e Privacidade *(Módulo 2) -> Adianta LGPD, APPEDU*
-- [ ] Redes de Comunicação, Protocolos e Roteamento *(Módulo 2) -> Adianta LGPD, APPEDU*
-- [ ] Qualidade, Recursos, Comunicação e Riscos de Projetos *(Módulo 2)*
-- [ ] Computação em Nuvem *(Módulo 3) -> Adianta LGPD, APPS, APPEDU*
-- [ ] Execução, Controle e Encerramento de Projetos Ágeis *(Módulo 3)*
-- [ ] Plataformas de Software na Nuvem para Internet das Coisas *(Módulo 3)*
-- [ ] Segurança em Infraestrutura de Redes e Computação Móvel *(Módulo 3)*
+
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Gestão do Tempo** *(Módulo 1)* | `CLOUD` | *(Adianta LGPD, APPS, APPEDU)* | ___/___/___ |
+| [ ] | **Projeto de Vida** *(Módulo 1)* | `CLOUD` | *(Adianta LGPD, APPEDU)* | ___/___/___ |
+| [ ] | **Coaching e Planejamento de Carreira** *(Módulo 1)* | `CLOUD` | *(Adianta LGPD, APPEDU)* | ___/___/___ |
+| [ ] | **Governança e Qualidade de Dados** *(Módulo 1)* | `CLOUD` | *(Adianta LGPD, APPEDU)* | ___/___/___ |
+| [ ] | **Da Iniciação ao Orçamento do Projeto** *(Módulo 1)* | `CLOUD` | - | ___/___/___ |
+| [ ] | **Narrativas, Roteiro e Storyboard** *(Módulo 2)* | `CLOUD` | *(Adianta LGPD, APPEDU)* | ___/___/___ |
+| [ ] | **Segurança e Privacidade** *(Módulo 2)* | `CLOUD` | *(Adianta LGPD, APPEDU)* | ___/___/___ |
+| [ ] | **Redes de Comunicação, Protocolos e Roteamento** *(Módulo 2)* | `CLOUD` | *(Adianta LGPD, APPEDU)* | ___/___/___ |
+| [ ] | **Qualidade, Recursos, Comunicação e Riscos de Projetos** *(Módulo 2)* | `CLOUD` | - | ___/___/___ |
+| [ ] | **Computação em Nuvem** *(Módulo 3)* | `CLOUD` | *(Adianta LGPD, APPS, APPEDU)* | ___/___/___ |
+| [ ] | **Execução, Controle e Encerramento de Projetos Ágeis** *(Módulo 3)* | `CLOUD` | - | ___/___/___ |
+| [ ] | **Plataformas de Software na Nuvem para Internet das Coisas** *(Módulo 3)* | `CLOUD` | - | ___/___/___ |
+| [ ] | **Segurança em Infraestrutura de Redes e Computação Móvel** *(Módulo 3)* | `CLOUD` | - | ___/___/___ |
 
 ### 🔹 Fase 4: Matérias Complementares / Bônus (1º Tri)
 > *Conclua uma única vez; valerá para praticamente todos os 12 cursos ao longo do ano.*
-- [ ] Boas-Vindas! / Bem vindo! *(Módulo 0)*
-- [ ] Gestão do Tempo *(Conteúdo Bônus)*
-- [ ] Tópicos Especiais de Tecnologia *(Conteúdo Bônus)*
-- [ ] Tópicos Especiais de Diversidade *(Conteúdo Bônus)*
-- [ ] Tópicos Especiais de Carreira *(Conteúdo Bônus)*
-- [ ] Atualidades pós-graduação *(Conteúdo Bônus)*
+
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Boas-Vindas! / Bem vindo!** *(Módulo 0)* | `ANADAD`, `BIGDATA`, `DATASCI`, `CLOUD` | *(Valerá para todos os 12 cursos)* | ___/___/___ |
+| [ ] | **Gestão do Tempo** *(Conteúdo Bônus)* | `ANADAD`, `BIGDATA`, `DATASCI`, `CLOUD` | *(Valerá para todos os 12 cursos)* | ___/___/___ |
+| [ ] | **Tópicos Especiais de Tecnologia** *(Conteúdo Bônus)* | `ANADAD`, `BIGDATA`, `DATASCI`, `CLOUD` | *(Valerá para todos os 12 cursos)* | ___/___/___ |
+| [ ] | **Tópicos Especiais de Diversidade** *(Conteúdo Bônus)* | `ANADAD`, `BIGDATA`, `DATASCI`, `CLOUD` | *(Valerá para todos os 12 cursos)* | ___/___/___ |
+| [ ] | **Tópicos Especiais de Carreira** *(Conteúdo Bônus)* | `ANADAD`, `BIGDATA`, `DATASCI`, `CLOUD` | *(Valerá para todos os 12 cursos)* | ___/___/___ |
+| [ ] | **Atualidades pós-graduação** *(Conteúdo Bônus)* | `ANADAD`, `BIGDATA`, `DATASCI`, `CLOUD` | *(Valerá para todos os 12 cursos)* | ___/___/___ |
 
 ### 🎯 Fase 5: Sprint de Avaliações Finais - 1º Trimestre
 > *Realizar ao final do trimestre, após concluir todas as disciplinas acima.*
 
-| Curso | Avaliação Objetiva | Estudo de Caso | Pitch | Status Conclusão |
-| :--- | :---: | :---: | :---: | :---: |
-| **ANADAD** (Análise de Dados) | [ ] | [ ] | [ ] | [ ] Concluído |
-| **BIGDATA** (Big Data) | [ ] | [ ] | [ ] | [ ] Concluído |
-| **DATASCI** (Data Science) | [ ] | [ ] | [ ] | [ ] Concluído |
-| **CLOUD** (Cloud Computing) | [ ] | [ ] | [ ] | [ ] Concluído |
+| Curso | Avaliação Objetiva | Estudo de Caso | Pitch | Status Conclusão | Data Conclusão |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **ANADAD** (Análise de Dados) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
+| **BIGDATA** (Big Data) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
+| **DATASCI** (Data Science) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
+| **CLOUD** (Cloud Computing) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
 
 ---
 
@@ -137,48 +149,57 @@
 ### 🔹 Fase 2: Disciplinas Específicas de cada Curso (2º Trimestre)
 
 #### ENGSOFT - Pós-graduação em Engenharia de Software
-- [ ] Metodologias de Desenvolvimento de Software *(Módulo 1)*
-- [ ] Gerenciamento Avançado de Projetos *(Módulo 1)*
-- [ ] Programação Extrema *(Módulo 2)*
-- [ ] Estruturas de Dados para Sistemas Inteligentes *(Módulo 2)*
-- [ ] Arquitetura de BI e Big Data *(Módulo 3)*
-- [ ] Plataformas para Desenvolvimento em Nuvem *(Módulo 3)*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Metodologias de Desenvolvimento de Software** *(Módulo 1)* | `ENGSOFT` | - | ___/___/___ |
+| [ ] | **Gerenciamento Avançado de Projetos** *(Módulo 1)* | `ENGSOFT` | - | ___/___/___ |
+| [ ] | **Programação Extrema** *(Módulo 2)* | `ENGSOFT` | - | ___/___/___ |
+| [ ] | **Estruturas de Dados para Sistemas Inteligentes** *(Módulo 2)* | `ENGSOFT` | - | ___/___/___ |
+| [ ] | **Arquitetura de BI e Big Data** *(Módulo 3)* | `ENGSOFT` | - | ___/___/___ |
+| [ ] | **Plataformas para Desenvolvimento em Nuvem** *(Módulo 3)* | `ENGSOFT` | - | ___/___/___ |
 
 #### LGPD - Pós-graduação em Privacidade e Proteção de Dados Pessoais
 > *Apenas 5 matérias específicas restantes!*
-- [ ] O ecossistema da LGPD *(Módulo 1)*
-- [ ] Análise de conformidade com a LGPD *(Módulo 2)*
-- [ ] Tratamento e Resposta à Incidentes *(Módulo 3)*
-- [ ] Sistema de Gestão de Proteção e Privacidade de Dados *(Módulo 3)*
-- [ ] Mapeamento de Fluxo de Dados *(Módulo 3)*
+
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **O ecossistema da LGPD** *(Módulo 1)* | `LGPD` | - | ___/___/___ |
+| [ ] | **Análise de conformidade com a LGPD** *(Módulo 2)* | `LGPD` | - | ___/___/___ |
+| [ ] | **Tratamento e Resposta à Incidentes** *(Módulo 3)* | `LGPD` | - | ___/___/___ |
+| [ ] | **Sistema de Gestão de Proteção e Privacidade de Dados** *(Módulo 3)* | `LGPD` | - | ___/___/___ |
+| [ ] | **Mapeamento de Fluxo de Dados** *(Módulo 3)* | `LGPD` | - | ___/___/___ |
 
 #### DEVWEB - Pós-Graduação em Desenvolvimento Full Stack
-- [ ] Intermediary Front-End *(Módulo 1) -> Adianta WEB3*
-- [ ] Advanced Front-end *(Módulo 1) -> Adianta WEB3*
-- [ ] Strategies BackEnd *(Módulo 2)*
-- [ ] Refactoring *(Módulo 2)*
-- [ ] Intermediary BackEnd *(Módulo 2)*
-- [ ] Advanced BackEnd *(Módulo 3)*
-- [ ] Hero Cloud developer *(Módulo 3)*
-- [ ] Tópicos Especiais de Direito *(Conteúdo Bônus)*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Intermediary Front-End** *(Módulo 1)* | `DEVWEB` | *(Adianta WEB3)* | ___/___/___ |
+| [ ] | **Advanced Front-end** *(Módulo 1)* | `DEVWEB` | *(Adianta WEB3)* | ___/___/___ |
+| [ ] | **Strategies BackEnd** *(Módulo 2)* | `DEVWEB` | - | ___/___/___ |
+| [ ] | **Refactoring** *(Módulo 2)* | `DEVWEB` | - | ___/___/___ |
+| [ ] | **Intermediary BackEnd** *(Módulo 2)* | `DEVWEB` | - | ___/___/___ |
+| [ ] | **Advanced BackEnd** *(Módulo 3)* | `DEVWEB` | - | ___/___/___ |
+| [ ] | **Hero Cloud developer** *(Módulo 3)* | `DEVWEB` | - | ___/___/___ |
+| [ ] | **Tópicos Especiais de Direito** *(Conteúdo Bônus)* | `DEVWEB` | - | ___/___/___ |
 
 #### APPS - Pós-graduação em Projetos de Aplicativos Móveis Multiplataforma
-- [ ] Fundamentos da Gestão de Projetos *(Módulo 1)*
-- [ ] Gestão Ágil de Projetos *(Módulo 1)*
-- [ ] Governança de Dados *(Módulo 1)*
-- [ ] Cybersecurity Essentials *(Módulo 2) -> Adianta SEGINFO*
-- [ ] Networking Essentials *(Módulo 2) -> Adianta SEGINFO*
-- [ ] Mercado de Aplicações Móveis *(Módulo 3)*
-- [ ] Desenvolvimento em plataformas hibridas: Flutter *(Módulo 3)*
-- [ ] Desenvolvimento em plataformas híbridas: React Native *(Módulo 3)*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Fundamentos da Gestão de Projetos** *(Módulo 1)* | `APPS` | - | ___/___/___ |
+| [ ] | **Gestão Ágil de Projetos** *(Módulo 1)* | `APPS` | - | ___/___/___ |
+| [ ] | **Governança de Dados** *(Módulo 1)* | `APPS` | - | ___/___/___ |
+| [ ] | **Cybersecurity Essentials** *(Módulo 2)* | `APPS` | *(Adianta SEGINFO)* | ___/___/___ |
+| [ ] | **Networking Essentials** *(Módulo 2)* | `APPS` | *(Adianta SEGINFO)* | ___/___/___ |
+| [ ] | **Mercado de Aplicações Móveis** *(Módulo 3)* | `APPS` | - | ___/___/___ |
+| [ ] | **Desenvolvimento em plataformas hibridas: Flutter** *(Módulo 3)* | `APPS` | - | ___/___/___ |
+| [ ] | **Desenvolvimento em plataformas híbridas: React Native** *(Módulo 3)* | `APPS` | - | ___/___/___ |
 
 ### 🎯 Fase 3: Sprint de Avaliações Finais - 2º Trimestre
-| Curso | Avaliação Objetiva | Estudo de Caso | Pitch | Status Conclusão |
-| :--- | :---: | :---: | :---: | :---: |
-| **ENGSOFT** (Engenharia de Software) | [ ] | [ ] | [ ] | [ ] Concluído |
-| **LGPD** (Privacidade e Dados) | [ ] | [ ] | [ ] | [ ] Concluído |
-| **DEVWEB** (Full Stack) | [ ] | [ ] | [ ] | [ ] Concluído |
-| **APPS** (Apps Multiplataforma) | [ ] | [ ] | [ ] | [ ] Concluído |
+| Curso | Avaliação Objetiva | Estudo de Caso | Pitch | Status Conclusão | Data Conclusão |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **ENGSOFT** (Engenharia de Software) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
+| **LGPD** (Privacidade e Dados) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
+| **DEVWEB** (Full Stack) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
+| **APPS** (Apps Multiplataforma) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
 
 ---
 
@@ -195,52 +216,60 @@
 ### 🔹 Fase 1: Disciplinas Específicas Finais por Curso (3º Trimestre)
 
 #### WEB3 - MBA em Web 3.0 (7 matérias restantes)
-- [ ] Geral Web 3.0 *(Módulo 1)*
-- [ ] Panorama Econômico *(Módulo 1)*
-- [ ] Mercado Financeiro *(Módulo 1)*
-- [ ] Criptomoedas *(Módulo 2)*
-- [ ] NFT: conceitos e criação *(Módulo 2)*
-- [ ] DataViz *(Módulo 3)*
-- [ ] Blockchain: Arquitetura, Desenvolvimento e Aplicações em Web 3.0 *(Módulo 3)*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Geral Web 3.0** *(Módulo 1)* | `WEB3` | - | ___/___/___ |
+| [ ] | **Panorama Econômico** *(Módulo 1)* | `WEB3` | - | ___/___/___ |
+| [ ] | **Mercado Financeiro** *(Módulo 1)* | `WEB3` | - | ___/___/___ |
+| [ ] | **Criptomoedas** *(Módulo 2)* | `WEB3` | - | ___/___/___ |
+| [ ] | **NFT: conceitos e criação** *(Módulo 2)* | `WEB3` | - | ___/___/___ |
+| [ ] | **DataViz** *(Módulo 3)* | `WEB3` | - | ___/___/___ |
+| [ ] | **Blockchain: Arquitetura, Desenvolvimento e Aplicações em Web 3.0** *(Módulo 3)* | `WEB3` | - | ___/___/___ |
 
 #### SEGINFO - MBA em Segurança da Informação (9 matérias restantes)
-- [ ] Endpoint Security *(Módulo 1)*
-- [ ] Network Defense *(Módulo 1)*
-- [ ] Cyber Threat Management *(Módulo 1)*
-- [ ] CyberOps *(Módulo 2)*
-- [ ] Network Security *(Módulo 2)*
-- [ ] IoT Security *(Módulo 3)*
-- [ ] Computer Security Incident Response Teams *(Módulo 3)*
-- [ ] Data Mapping and Privacy Governance *(Módulo 3)*
-- [ ] Boas-Vindas! *(Módulo 0)*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Endpoint Security** *(Módulo 1)* | `SEGINFO` | - | ___/___/___ |
+| [ ] | **Network Defense** *(Módulo 1)* | `SEGINFO` | - | ___/___/___ |
+| [ ] | **Cyber Threat Management** *(Módulo 1)* | `SEGINFO` | - | ___/___/___ |
+| [ ] | **CyberOps** *(Módulo 2)* | `SEGINFO` | - | ___/___/___ |
+| [ ] | **Network Security** *(Módulo 2)* | `SEGINFO` | - | ___/___/___ |
+| [ ] | **IoT Security** *(Módulo 3)* | `SEGINFO` | - | ___/___/___ |
+| [ ] | **Computer Security Incident Response Teams** *(Módulo 3)* | `SEGINFO` | - | ___/___/___ |
+| [ ] | **Data Mapping and Privacy Governance** *(Módulo 3)* | `SEGINFO` | - | ___/___/___ |
+| [ ] | **Boas-Vindas!** *(Módulo 0)* | `SEGINFO` | - | ___/___/___ |
 
 #### IAMARK - Pós-graduação em IA Aplicada a Growth Marketing (11 matérias restantes)
-- [ ] A Inteligência Artificial Como Habilidade no Mercado de Trabalho *(Módulo 1)*
-- [ ] Branded Content: Marketing de Conteúdo *(Módulo 1)*
-- [ ] Martech *(Módulo 1)*
-- [ ] Ferramentas de AI para Não Programadores *(Módulo 2)*
-- [ ] Content Development *(Módulo 2)*
-- [ ] Jornada do Consumidor *(Módulo 2)*
-- [ ] Growth Hacking *(Módulo 2)*
-- [ ] Social Media *(Módulo 3)*
-- [ ] Estratégia de Marketing *(Módulo 3)*
-- [ ] Redes Neurais e Inteligência Artificial Aplicada *(Módulo 3)*
-- [ ] Projeto Aplicado: Inteligência Artificial aplicada a Marketing e Growth *(Módulo 3)*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **A Inteligência Artificial Como Habilidade no Mercado de Trabalho** *(Módulo 1)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Branded Content: Marketing de Conteúdo** *(Módulo 1)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Martech** *(Módulo 1)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Ferramentas de AI para Não Programadores** *(Módulo 2)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Content Development** *(Módulo 2)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Jornada do Consumidor** *(Módulo 2)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Growth Hacking** *(Módulo 2)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Social Media** *(Módulo 3)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Estratégia de Marketing** *(Módulo 3)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Redes Neurais e Inteligência Artificial Aplicada** *(Módulo 3)* | `IAMARK` | - | ___/___/___ |
+| [ ] | **Projeto Aplicado: Inteligência Artificial aplicada a Marketing e Growth** *(Módulo 3)* | `IAMARK` | - | ___/___/___ |
 
 #### APPEDU - Pós-graduação em Tecnologias Aplicadas a Educação (Apenas 5 matérias restantes!)
-- [ ] Desenvolvimento de Software Educacional *(Módulo 1)*
-- [ ] Principais Softwares Educacionais *(Módulo 2)*
-- [ ] Robótica Pedagógica *(Módulo 3)*
-- [ ] Jogos Educacionais *(Módulo 3)*
-- [ ] Recursos Audiovisuais Utilizados na Educação *(Módulo 3)*
+| Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
+| :---: | :--- | :--- | :--- | :---: |
+| [ ] | **Desenvolvimento de Software Educacional** *(Módulo 1)* | `APPEDU` | - | ___/___/___ |
+| [ ] | **Principais Softwares Educacionais** *(Módulo 2)* | `APPEDU` | - | ___/___/___ |
+| [ ] | **Robótica Pedagógica** *(Módulo 3)* | `APPEDU` | - | ___/___/___ |
+| [ ] | **Jogos Educacionais** *(Módulo 3)* | `APPEDU` | - | ___/___/___ |
+| [ ] | **Recursos Audiovisuais Utilizados na Educação** *(Módulo 3)* | `APPEDU` | - | ___/___/___ |
 
 ### 🎯 Fase 2: Sprint de Avaliações Finais - 3º Trimestre
-| Curso | Avaliação Objetiva | Estudo de Caso | Pitch | Status Conclusão |
-| :--- | :---: | :---: | :---: | :---: |
-| **WEB3** (Web 3.0) | [ ] | [ ] | [ ] | [ ] Concluído |
-| **SEGINFO** (Segurança da Informação) | [ ] | [ ] | [ ] | [ ] Concluído |
-| **IAMARK** (IA em Growth Marketing) | [ ] | [ ] | [ ] | [ ] Concluído |
-| **APPEDU** (Tecnologias na Educação) | [ ] | [ ] | [ ] | [ ] Concluído |
+| Curso | Avaliação Objetiva | Estudo de Caso | Pitch | Status Conclusão | Data Conclusão |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **WEB3** (Web 3.0) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
+| **SEGINFO** (Segurança da Informação) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
+| **IAMARK** (IA em Growth Marketing) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
+| **APPEDU** (Tecnologias na Educação) | [ ] | [ ] | [ ] | [ ] Concluído | ___/___/___ |
 
 ---
 
