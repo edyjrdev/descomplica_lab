@@ -57,7 +57,7 @@
 | Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
 | :---: | :--- | :--- | :--- | :---: |
 | [x] | **Estatística Aplicada a Negócios** *(Módulo 1)* | `ANADAD` | - | 12/11/2026 |
-| [ ] | **Computação e Inteligência Artificial** *(Módulo 1)* | `ANADAD` | - | ___/___/___ |
+| [x] | **Computação e Inteligência Artificial** *(Módulo 1)* | `ANADAD` | - | 14/11/2026 |
 | [ ] | **Privacy and Data Protection** *(Módulo 3)* | `ANADAD` | *(Adianta APPS e SEGINFO)* | ___/___/___ |
 | [ ] | **Cloud Security** *(Módulo 3)* | `ANADAD` | *(Adianta SEGINFO)* | ___/___/___ |
 
