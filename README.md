@@ -43,7 +43,7 @@
 | Status | Disciplina | Cursos Impactados | Bônus Futuro (Reaproveitamento) | Data Conclusão |
 | :---: | :--- | :--- | :--- | :---: |
 | [ ] | **Data Analytics e Big Data para Tomada de Decisão** | `ANADAD`, `BIGDATA` | - | ___/___/___ |
-| [ ] | **Big Data Analytics** | `ANADAD`, `BIGDATA` | - | ___/___/___ |
+| [x] | **Big Data Analytics** | `ANADAD`, `BIGDATA` | - | 14/11/2026 |
 | [x] | **Ferramentas para Big Data** | `ANADAD`, `BIGDATA` | - | 01/11/2026 |
 | [ ] | **Data Integration, Ingestion & Quality** | `ANADAD`, `BIGDATA` | - | ___/___/___ |
 | [ ] | **Coleta e Tratamento de Dados** | `ANADAD`, `DATASCI` | - | ___/___/___ |
